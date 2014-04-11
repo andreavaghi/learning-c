@@ -1,3 +1,3 @@
 learning-c
 ==========
-examples and test for university course
+examples and tests for university class

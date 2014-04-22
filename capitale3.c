@@ -23,23 +23,17 @@ int main()
     printf("\nValore del conto all'inizio dell'anno:\n");
     scanf("%f",&contoIniziale);
 
-    conto=contoIniziale  
-
     printf("\nInserire l'interesse della banca annuale\n");
     scanf("%f",&interesse);
 
-
-    conto = contoIniziale * (1 + interesse / 100 );  
-
-
     /******** capitalizzazione trimestrale    **********/
 
-    conto= contoIniziale;
+    conto = contoIniziale;
 
-    for (i=1; i<5; i=i+1;)
+    for (i=1; i<5; i=i+1)
     {
 	// abbasso il tasso di interesse al quello trimestrale
-    conto = conto * (1 + interesse / 100 * 4 / 12 );
+    conto = conto * (1 + interesse / 100 * 3 / 12 );
     }
     printf("\n Valore del conto all'FINE dell'anno (CAP. TRIMESTRALE): %6.2f \n", conto );
 

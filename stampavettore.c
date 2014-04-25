@@ -2,12 +2,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void main()
+int main()
 {
     
 	int B[5]; 
+	int i;
 
 	B[0]= 4; B[1]= 3; B[2]= 2; B[3]= 1; B[4]= 0;
 
 	// aggiungi il codice che manca (1 ciclo for contenente una printf)
+	for(i = 0; i < 5; i++) {
+		printf("L'elemento %d del vettore B contiene %d\n", i, B[i]);
+	}
 }

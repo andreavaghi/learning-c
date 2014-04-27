@@ -7,10 +7,13 @@
 void main()
 {
     
-	int C[N]; 
+	int C[N];
+	int i;
 	
 	// aggiungi qui il ciclo che chiede con delle scanf gli interi all'utente
-
+        for(i = 0; i < N; i++) {
+        	
+        }
 
 
 
